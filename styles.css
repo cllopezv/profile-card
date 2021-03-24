@@ -19,7 +19,7 @@ html{
 }
 
 body{
-    background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -240px no-repeat var(--dark-cyan);
+    background: url('images/bg-pattern-bottom.svg') bottom -600px right -150px no-repeat, url('images/bg-pattern-top.svg') top -500px left -240px no-repeat var(--dark-cyan);
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -115,7 +115,7 @@ li:first-child{
 /* --------------------------------- Mobile --------------------------------- */
 @media (max-width: 768px){
     body{
-        background:url(../images/bg-pattern-bottom.svg) bottom -643px right -645px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -766px no-repeat var(--dark-cyan);
+        background:url('images/bg-pattern-bottom.svg') bottom -643px right -645px no-repeat, url('images/bg-pattern-top.svg') top -500px left -766px no-repeat var(--dark-cyan);
     }
     
 }
