@@ -1,0 +1,121 @@
+/* --------------------------------- Globals -------------------------------- */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+*, *:after,*:before{
+    box-sizing: inherit;
+}
+
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --grayish: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%)
+
+}
+
+body{
+    background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -240px no-repeat var(--dark-cyan);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------- Card ---------------------------------- */
+
+.card{
+    width: 350px;
+    height: 374px;
+    background-color: #ffff;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card-header{
+    width: 350px;
+    height: 140px;
+    background-image: url('images/bg-pattern-card.svg');
+}
+
+/* ---------------------------------- Body ---------------------------------- */
+
+.victor-img{
+    border: 7px solid #fff;
+    border-radius: 50%;
+    margin: -50px 0px 0px 118px;
+}
+
+h2,.location{
+    padding: 5px 15px 0px 0px;
+    text-align: center;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2E3349;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.age{
+    font-weight: 400;
+    margin-left: 8px;
+    color: var(--grayish);
+}
+
+.location{
+    font-weight: 400;
+    margin-top: 8px;
+    padding: 0;
+    font-size: 1.4rem;
+    color: var(--grayish);
+    margin-bottom: 31px;
+}
+
+/* --------------------------------- Socials--------------------------------- */
+.card-footer{
+    border-top: 1px solid #E8E9EC;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    padding-top: 13px;
+    
+}
+
+.count{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+}
+.social{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--grayish);
+    margin-top: 9px;
+    letter-spacing: 1.5px;
+    line-height: 10.06px;
+    text-align: center;
+    padding-right: 11px;
+}
+
+
+li:first-child{
+    margin-right: -14px;
+}
+
+/* --------------------------------- Mobile --------------------------------- */
+@media (max-width: 768px){
+    body{
+        background:url(../images/bg-pattern-bottom.svg) bottom -643px right -645px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -766px no-repeat var(--dark-cyan);
+    }
+    
+}
